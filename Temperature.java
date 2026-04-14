@@ -15,4 +15,12 @@ public class Temperature {
     public double kelvinToCelsius(double k) {
         return k - 273.15;
     }
+
+     public double kelvinToFahrenheit(double k) {
+        return (k - 273.15) * 9 / 5 + 32;
+    }
+
+    public double fahrenheitToKelvin(double f) {
+        return (f - 32) * 5 / 9 + 273.15;
+    }
 }
